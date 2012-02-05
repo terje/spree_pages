@@ -1,8 +1,8 @@
 namespace :spree_pages do
   desc "Copies all migrations and assets (NOTE: This will be obsolete with Rails 3.1)"
   task :install do
-    Rake::Task['spree_pages:install:migrations'].invoke
-    Rake::Task['spree_pages:install:assets'].invoke
+    #Rake::Task['spree_pages:install:migrations'].invoke
+    #Rake::Task['spree_pages:install:assets'].invoke
   end
 
   namespace :install do
